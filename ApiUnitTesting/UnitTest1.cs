@@ -25,9 +25,9 @@ namespace ApiUnitTesting
 
         [Theory]
         [InlineData(5,25)]
-        [InlineData(2,5)]
+        [InlineData(2,4)]
         [InlineData(7,49)]
-        [InlineData(15,2255)]
+        [InlineData(15,225)]
         public async Task SquareApiTest(int n, int expected)
         {
             var response = await client.PostAsync("api/square/" + n,null);
