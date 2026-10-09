@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hOHMuVBLMcY=",
+  "success": true,
+  "projectFilePath": "D:\\C#PROJECT\\CoreApiDemo\\CoreApiDemo\\CoreApiDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\scalar.aspnetcore\\2.17.14\\scalar.aspnetcore.2.17.14.nupkg.sha512"
+  ],
+  "logs": []
+}
