@@ -8,6 +8,12 @@ namespace CoreApiDemo.Controllers
     public class SampleApiController : ControllerBase
     {
 
+  [HttpGet]
+        [Route("api/second")]
+        public string SecondApi()
+        {
+            return "Welcome to Second Api";
+        }
         [HttpGet]
         [Route("api/first")]
         public string firstApi()
