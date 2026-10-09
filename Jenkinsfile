@@ -12,7 +12,7 @@ pipeline {
         }
         stage("Restore") {
             steps {
-                bat "dotnet restore CoreApiDemo.slnx"
+                bat "dotnet restore"
             }
         }
 
