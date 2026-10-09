@@ -17,7 +17,7 @@ namespace ApiUnitTesting
         [Fact]
         public async Task FirstApiTest()
         {
-            var response = await client.GetAsync("api/firstd");
+            var response = await client.GetAsync("api/first");
             int statusCode = (int)response.StatusCode;
             Assert.Equal(200, statusCode);
         }
